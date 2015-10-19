@@ -1,14 +1,15 @@
 Summary:	DVB/ASI network streamer
 Summary(pl.UTF-8):	Aplikacja do tworzenia strumieni sieciowych DVB/ASI
 Name:		dvblast
-Version:	2.2
+Version:	3.0
 Release:	1
 License:	GPL v2+
 Group:		Networking
-Source0:	http://downloads.videolan.org/dvblast/2.2/%{name}-%{version}.tar.bz2
-# Source0-md5:	c7074e8902f1b200db93cc5287057c7f
+Source0:	http://downloads.videolan.org/dvblast/3.0/%{name}-%{version}.tar.bz2
+# Source0-md5:	89ea9ffb16476d47b8853e52a8a3ee63
 URL:		http://www.videolan.org/projects/dvblast.html
 BuildRequires:	bitstream
+BuildRequires:	libev-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
