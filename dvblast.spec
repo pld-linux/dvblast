@@ -1,12 +1,13 @@
+# TODO: libstreammaster (Deltacast ASI cards SDK) support
 Summary:	DVB/ASI network streamer
 Summary(pl.UTF-8):	Aplikacja do tworzenia strumieni sieciowych DVB/ASI
 Name:		dvblast
-Version:	3.0
+Version:	3.1
 Release:	1
 License:	GPL v2+
 Group:		Networking
-Source0:	http://downloads.videolan.org/dvblast/3.0/%{name}-%{version}.tar.bz2
-# Source0-md5:	89ea9ffb16476d47b8853e52a8a3ee63
+Source0:	http://downloads.videolan.org/dvblast/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5:	f195fc6c64796d989bf29a3e2ffca758
 URL:		http://www.videolan.org/projects/dvblast.html
 BuildRequires:	bitstream
 BuildRequires:	libev-devel
